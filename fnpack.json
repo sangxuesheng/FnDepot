@@ -13,19 +13,5 @@
     "history": {
       "v1.0.0": "1. 初始版本发布。"
     }
-  },
-  "gotty": {
-    "display_name": "gotty",
-    "desc": "这是一个gotty\n好不好用我也不知道",
-    "labels": "终端,效率,便捷",
-    "version": "1.0.5",
-    "author": "yudai",
-    "author_url": "https://github.com/EWEDLCM/",
-    "bug_report_url": "https://github.com/EWEDLCM/FnDepot/gotty/issues",
-    "install_type": "存储空间",
-    "size": "3",
-    "history": {
-      "v1.0.5": "测试"
-    }
   }
 }
