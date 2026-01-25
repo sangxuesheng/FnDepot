@@ -1,6 +1,6 @@
 {
-  "test": {
-    "display_name": "fntermx",
+  "fntermx": {
+    "display_name": "fntermx 终端",
     "desc": "一款支持持久化的终端应用",
     "labels": "工具,效率",
     "version": "1.1.0",
