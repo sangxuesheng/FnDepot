@@ -14,4 +14,20 @@
       "v1.1.0": "新增支持秘钥、系统识别、孤立日志清理、标签栏样式选择、光标样式选择；优化手机端样式、工具栏、手势操作（没有演示），改用db存储数据，开启外部访问地址填写"
     }
   }
+},
+{
+  "unique-app-id": {
+    "display_name": "lobechat",
+    "version": "1.0.0",
+    "desc": "LobeHub 是一个开源的AI对话助手平台，支持多种AI模型，提供优雅的用户界面和强大的功能。集成Casdoor身份认证、PostgreSQL数据库和RustFS对象存储，一键部署服务端数据库版本。为您提供完整的AI对话解决方案！<br><br>首次启动大概最长10分钟，根据用户网速决定，同时下载4个镜像，会比较慢！<br><br>首次使用需要注册账号使用<br><br>关于反向代理请查阅官方文档，需要更新lobechat-app容器中的环境变量及增加lobechat-casdoor容器中lobechat应用的重定向即可！<br><br><strong>📦 服务组件：</strong><br>• <strong>LobeChat 主应用</strong>：http://服务器IP:33210（安装时配置）<br>• <strong>Casdoor 身份认证</strong>：http://服务器IP:38000（安装时配置）<br>&nbsp;&nbsp;- 管理员账号：<code>admin</code><br>&nbsp;&nbsp;- 初始密码：<code>123</code><br>• <strong>PostgreSQL 数据库</strong>：35432（安装时配置）<br>&nbsp;&nbsp;- 数据库用户：<code>postgres</code><br>&nbsp;&nbsp;- 数据库密码：<code>postgres</code><br>&nbsp;&nbsp;- 数据库名称：<code>casdoor</code> / <code>lobechat</code><br>• <strong>RustFS 对象存储</strong><br>&nbsp;&nbsp;- API 端口：39000（安装时配置）<br>&nbsp;&nbsp;- 控制台端口：39001（安装时配置）<br>&nbsp;&nbsp;- 控制台地址：http://服务器IP:39001<br>&nbsp;&nbsp;- Access Key：<code>rustfsadmin</code><br>&nbsp;&nbsp;- Secret Key：<code>rustfsadmin</code><br><br><strong>",
+    "labels": "工具,AI",
+    "author": "LobeChat Community",
+    "author_url": "https://lobehub.com/zh/docs/usage/start",
+    "bug_report_url": "https://sangxuesheng.com/archives/1166.html",
+    "install_type": "存储空间",
+    "size": "1",
+    "history": {
+      "version_number": "String"
+    }
+  }
 }
